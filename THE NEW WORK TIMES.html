@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>news</title>
+  <style>
+    body {
+      margin: 0;
+      padding: 0;
+    }
+
+    .container {
+      position: relative;
+      border: solid 2px #af0606;
+      height: auto;
+    }
+
+    /* 選單 */
+    nav {
+      position: fixed;
+      width: 100%;
+      border: solid 2px #3f3e3e;
+      display: block;
+      background-color: #3f3e3e;
+      top: 0;
+      left: 0;
+      z-index: 9;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      display: inline-block;
+      width: 150px;
+      height: 50px;
+      background-color:#6e6c6c;
+      margin: 10px;
+    }
+
+    section {
+      position: relative;
+    }
+
+    .banner {
+      position: relative;
+      top: 104px;
+    }
+
+    .banner img {
+      width: 100%;
+      
+      
+    }
+
+    .title {
+      position: absolute;
+      color: #000;
+      top: 50px;
+      left: 650px;
+    }
+
+    .content {
+      padding: 150px 200px;
+    }
+
+    footer {
+      position: fixed;
+      bottom: 0;
+      left: 0;
+      height: 70px;
+      background-color: rgb(201, 201, 201);
+      width: 100%;
+      text-align: center;
+    }
+  </style>
+</head>
+
+<body>
+  <!-- 建立最外框 -->
+  <div class="container">
+    <!-- 建立選單 -->
+    <nav>
+      <ul>
+        <li>SPORTS</li>
+        <li>U.S.</li>
+        <li>WORLD</li>
+        <li>HEALTH</li>
+        <li>SPORT</li>
+      </ul>
+    </nav>
+    <!-- 建立橫幅 -->
+    <section>
+      <div class="banner">
+        <h1 class="title">THE NEW YORK TIMES</h1><img src="images/news1.jpg">
+      </div>
+    </section>
+    <!-- 網頁其他內容 -->
+    <section class="content">
+      <h2>What to Know About the House Vote on Trump Impeachment Rules</h2>
+
+      <p>The House on Thursday will take its first formal vote on the impeachment inquiry into President Trump. 
+        Lawmakers are expected to vote largely along party lines to adopt a resolution that will set rules for the next phase of the inquiry, 
+        including public hearings and the drafting of articles of impeachment against the president.</p>
+
+      <p>The vote is a striking turnabout for House Democrats. 
+        For weeks, they have resisted formal floor action, 
+        fearing that a vote could hurt the re-election prospects of members in Trump-friendly swing districts 
+        where voters want them to focus more on issues like jobs and the high price of prescription drugs than on a seemingly futile effort to oust the president.</p>
+
+      <p>But after a series of bombshell revelations about the president’s pressure campaign to enlist Ukraine to investigate his political rivals, 
+        Democrats are convinced the public is behind the inquiry, and are ready to call the bluff of Republicans who have been demanding a floor vote.</p>
+      
+    </section>
+    <!-- 網頁的頁腳 -->
+    <footer>
+      <p>THE NEW WORK TIMES</p>
+    </footer>
+  </div>
+</body>
+
+</html>
